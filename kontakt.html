@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакт | Дулене</title>
+    <meta name="description" content="Јавите се сајту Дулене. Оставите нам ваше предлоге и примедбе.">
+    <meta name="keywords" content="selo dulene, dulene kragujevac, dulene, село дулене, дулене, дулене крагујевац, дулене гледићке планине, дулене црни врх, дуленска река">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body class="primary-color-gradiant">
+    <header>
+        <div id="navbar" class="navbar">
+            <img src="img/logo.png" width="70" alt="dulene logo">
+        <nav>
+        
+            <ul id="meny" class="desktop-meny">
+                <li> <a href="index.html">Почетна</a> </li>
+                <li> <a href="znamenitosti.html"> Знаменитости</a></li>
+                <li> <a href="istorija.html">Историја</a> </li>
+                <li> <a href="https://forum.dulene.in.rs/public/">Форум</a> </li>
+                <li> <a href="kontakt.html">Контакт</a></li>
+            </ul>
+          
+        </nav>
+        <div onclick="phoneMeny()" id="phone-nav">
+            <i class="fa fa-bars fa-lg"></i>
+        </div>
+        </div>
+        
+            </header>
+<section class="center">
+
+    <form class="form" action="poruka.php" method="post">
+        <label class="obavezno" for="name">Име</label>
+            <input type="text" name="ime" placeholder="Овде унесите име" required>
+        <label class="obavezno" for="email"> Е-мејл</label>
+            <input  type="email" name="email" placeholder="Овде унесите мејл" required>
+        <label for="phone">Телефон</label>
+        <input  type="tel" name="phone" placeholder="Овде унесите телефон">
+        <label for="message">Унесите вашу поруку</label>
+            <textarea autofocus name="message" id="poruka" cols="30" rows="10" maxlength="300"></textarea>
+        <label class="obavezno" for="pitanje">Колико је два плус два</label>
+        <input type="text" id="pitanje" name="pitanje" required placeholder="бројевима">
+            <button type="submit" class="btn btn-green" name="send">Пошаљи</button>
+      <em class="form-info">Поља назначена црвеном звездицом су обавезна</em>
+    </form>
+
+</section>
+
+<footer>
+    <div class="footer-text footer-color">
+        <p>&copy;  <span id="year"></span>  DULENE.IN.RS</p>
+    </div>
+</footer>
+    <script src="js/dulenski.js">
+
+    </script>
+</body>
+</html>
