@@ -1,13 +1,13 @@
 /*Prikazuje i sakriva navigaciju na telefonu*/
-function phoneMeny(){
-
-    var element = document.getElementById("meny");
-    if (element.style.display === "flex") {
-      element.style.display = "none";
-    } else {
-      element.style.display = "flex";
-    }
+const phoneNav=document.getElementById('phone-nav').addEventListener('click', ()=>{
+  const element = document.getElementById("meny");
+  if (element.style.display === "flex") {
+    element.style.display = "none";
+  } else {
+    element.style.display = "flex";
   }
+}); 
+
   /*Navigacija ide gore dole...*/
  let pastScroll = window.pageYOffset;
 window.onscroll = function() {

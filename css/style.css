@@ -69,7 +69,7 @@ flex-flow: column;
     justify-content: center;
     text-align: center;
     height: 100%;
-  
+      
 }
 .hero .content h1{
     font-family: Caveat;
@@ -110,13 +110,9 @@ margin: 15px 0;
 }
 #index-gallery{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 10px;
-    grid-template-areas: 
-    "img1 img2 img3 img4"
-    "img5 img6 img7 img8"
-    "img9 img10 img11 img12";
+    grid-template-columns: auto auto ;
+    gap: 0.5rem;
+
 }
 
 #index-gallery .gallery-img{
@@ -126,7 +122,7 @@ margin: 15px 0;
 
 @media screen and (max-width:700px) {
     #index-gallery{
-        grid-template-columns:1fr 1fr;
+        grid-template-columns:auto auto;
 
         grid-template-areas: 
         "img1 img2"
