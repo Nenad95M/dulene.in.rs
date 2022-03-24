@@ -6,8 +6,8 @@ const phoneNav=document.getElementById('phone-nav').addEventListener('click', ()
   } else {
     element.style.display = "flex";
   }
-
 }); 
+
 //ovo fraca flex, sprecava da bude neprikazan meni nakon promene velicine ekrana na desktopu
  window.addEventListener('resize', ()=>{
   const element = document.getElementById("meny");
@@ -15,6 +15,7 @@ const phoneNav=document.getElementById('phone-nav').addEventListener('click', ()
       element.style.display = "flex";
     }
  })
+ 
   /*Navigacija ide gore dole...*/
  let pastScroll = window.pageYOffset;
 window.onscroll = function() {
