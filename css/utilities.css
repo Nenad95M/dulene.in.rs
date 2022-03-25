@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+/*Underline*/
+.underline:hover{
+    text-decoration: underline;
+}
 /*Wrapper*/
 .wraper{
  max-width: 300px;
@@ -41,7 +45,7 @@ ul{
     list-style: none;
 }
 a{
-    color: #333;
+    color: inherit;
     text-decoration: none;
 }
 
@@ -121,7 +125,7 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     height: 100%;
 }
 
