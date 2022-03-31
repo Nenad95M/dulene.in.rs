@@ -11,7 +11,9 @@ const phoneNav=document.getElementById('phone-nav').addEventListener('click', ()
 //ovo fraca flex, sprecava da bude neprikazan meni nakon promene velicine ekrana na desktopu
  window.addEventListener('resize', ()=>{
   const element = document.getElementById("meny");
-     if(window.innerHeight>650){
+  console.log(window.innerWidth);
+  console.log(' ');
+     if(window.innerWidth>650){
       element.style.display = "flex";
     }
  })
