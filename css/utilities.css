@@ -18,7 +18,7 @@
 }
 .primary-color-gradiant{
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,167,69,1) 0%, rgba(203,255,5,1) 0%, rgba(60,156,95,1) 36%, rgba(59,157,98,1) 58%, rgba(16,38,26,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(40,167,69,1) 0%, rgba(203,255,5,1) 0%, rgba(60,156,95,1) 36%, rgba(59,157,98,1) 58%, rgba(16,38,26,1) 100%);
 }
 .secondary-color{
     background-color:#fff ;

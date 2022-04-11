@@ -280,7 +280,7 @@ tr:nth-child(even) {
     width: 90%;
 }
 .form textarea{
-    padding: 1rem;
+    padding: 0.5rem;
     border: 1px solid #28a745 ;
     outline: #28a745 ;
 }
@@ -339,4 +339,13 @@ tr:nth-child(even) {
     width:80%;
     
 }
+}
+
+/* Vremenska prognoza */
+.prognoza{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
 }
