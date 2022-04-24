@@ -17,6 +17,10 @@
     transition: 1s;
 
 }
+/* Navbar logo */
+.nav-logo{
+    width: 90px;
+}
 #meny{
     align-self: center;
     display: flex;
@@ -347,5 +351,5 @@ tr:nth-child(even) {
     display: grid;
     justify-content: center;
     align-content: center;
-    height: 60vh;
+    height: 100vh;
 }
