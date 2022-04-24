@@ -7,9 +7,9 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=43.842986&lon=20.9531
 });}
 
  const weatherUI=function(data){
-document.getElementById('temperature').textContent=`${data['main']['temp']}`;
-document.getElementById('windSpeed').textContent=`${data['weather'][0]['description']}`;
-document.getElementById('descr').textContent=`${data['wind']['speed']}`;
+document.getElementById('temperature').textContent=`${data['main']['temp']} степени целзијуса`;
+document.getElementById('windSpeed').textContent=`${data['wind']['speed']} метара у секунди`;
+document.getElementById('descr').textContent=`${data['weather'][0]['description']}`;
 document.getElementById('humidity').textContent=`${data['main']['humidity']}`;
  }
  
