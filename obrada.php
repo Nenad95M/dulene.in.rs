@@ -11,7 +11,7 @@ $messageIsSent=false;
     $email2=$email;
     $message=wordwrap($message, 70);
     
-    mail($admin_email, "Poruka sa sajta ". $email, $message . ' - ' . $phone .$name, "From:" . $admin_email);
+    mail($admin_email, "Poruka sa sajta ". $email, $message . ' - ' . $phone .$name, "From: " . $admin_email);
   $messageIsSent=true;
   }
 ?>
