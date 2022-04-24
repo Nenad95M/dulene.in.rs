@@ -3,11 +3,14 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=43.842986&lon=20.9531
  let temperatura=data['main']['temp'];
  let description=data['weather'][0]['description'];
  let wind=data['wind']['speed'];
+ let humidity=data['main']['humidity'];
 temperature.textContent=`${temperatura} степени`;
 descr.textContent=`${description}`;
 windSpeed.textContent=`${wind}`;
+humid.textContent=`${humidity}`;
 });
  
 const temperature= document.getElementById('temperature');
 const windSpeed=document.getElementById('windSpeed');
 const descr=document.getElementById('descr');
+const humid=document.getElementById('humidity');
