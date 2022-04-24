@@ -44,26 +44,26 @@ footer{
 ?>
 
 
-<header>
-        <div id="navbar" class="navbar">
-            <img src="img/logo.png" width="70" alt="dulene logo">
-        <nav>
-        
-            <ul id="meny" class="desktop-meny">
-                <li> <a href="index.html">Почетна</a> </li>
-                <li> <a href="znamenitosti.html"> Знаменитости</a></li>
-                <li> <a href="istorija.html">Историја</a> </li>
-                <li> <a href="https://forum.dulene.in.rs/public/">Форум</a> </li>
-                <li> <a href="kontakt.html">Контакт</a></li>
-            </ul>
-          
-        </nav>
-        <div onclick="phoneMeny()" id="phone-nav">
-            <i class="fa fa-bars fa-lg"></i>
-        </div>
-        </div>
-        
-            </header>
+    <header>
+	<div id="navbar" class="navbar">
+	    <img src="img/logo.png" draggable="false"  class="nav-logo" alt="dulene logo">
+	    <nav>
+
+	    <ul id="meny" class="desktop-meny">
+		<li> <a href="index.html">Почетна</a> </li>
+		<li> <a href="znamenitosti.html"> Знаменитости</a></li>
+		<li> <a href="istorija.html">Историја</a> </li>
+		<li> <a href="vremenska-prognoza-dulene.html">Време</a> </li>
+		<li> <a href="https://forum.dulene.in.rs/public/">Форум</a> </li>
+		<li> <a href="kontakt.html">Контакт</a></li>
+	    </ul>
+	</nav>
+	<div id="phone-nav">
+	    <i class="fa fa-bars fa-lg"></i>
+	</div>
+	</div>
+
+    </header>
             <main>
 <section class="text-white poruka">
 
