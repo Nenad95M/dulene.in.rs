@@ -351,5 +351,6 @@ tr:nth-child(even) {
     display: grid;
     justify-content: center;
     align-content: center;
+    gap: 1rem;
     height: 100vh;
 }
