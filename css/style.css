@@ -356,7 +356,7 @@ tr:nth-child(even) {
     height: 100vh;
 }
 .prognoza td{
-    padding: 0.1rem;
+    padding: 0.2rem;
 }
 .danger{
     display: none;
