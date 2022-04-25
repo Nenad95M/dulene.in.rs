@@ -11,6 +11,8 @@
       document.getElementById('temperature').textContent = `${data['current']['temp']} степени целзијуса`;
       document.getElementById('windSpeed').textContent = `${data['current']['wind_speed']} метара у секунди`;
       document.getElementById('descr').textContent = `${data['current']['weather'][0]['description']}`;
+      document.getElementById('uvi').textContent = `${data['current']['uvi']}`;
+
       document.getElementById('humidity').textContent = `${data['current']['humidity']}%`;
       if(data['alerts'][0]['event']){
         alerts(data);
