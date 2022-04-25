@@ -10,7 +10,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?lat=43.842986&lon=20.9531
 document.getElementById('temperature').textContent=`${data['main']['temp']} степени целзијуса`;
 document.getElementById('windSpeed').textContent=`${data['wind']['speed']} метара у секунди`;
 document.getElementById('descr').textContent=`${data['weather'][0]['description']}`;
-document.getElementById('humidity').textContent=`${data['main']['humidity']}`;
+document.getElementById('humidity').textContent=`${data['main']['humidity']}%`;
  }
  
  weatherUI(callApi());
