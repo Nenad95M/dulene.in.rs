@@ -12,7 +12,8 @@
       document.getElementById('windSpeed').textContent = `${data['current']['wind_speed']} метара у секунди`;
       document.getElementById('descr').textContent = `${data['current']['weather'][0]['description']}`;
       document.getElementById('uvi').textContent = `${data['current']['uvi']}`;
-
+      document.getElementById('min').textContent=`${data['daily'][0]['temp']['min']} степени целзијуса`;
+      document.getElementById('max').textContent=`${data['daily'][0]['temp']['max']} степени целзијуса`;
       document.getElementById('humidity').textContent = `${data['current']['humidity']}%`;
       if(data['alerts'][0]['event']){
         alerts(data);
