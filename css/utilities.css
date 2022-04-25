@@ -34,7 +34,9 @@
 .light-green{
     background-color: #FF5733;
     color: #fff;
-
+}
+.redAlert{
+    color: red;
 }
 
 /*font*/
