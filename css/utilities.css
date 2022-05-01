@@ -11,6 +11,10 @@
 .wraper{
  max-width: 300px;
 }
+/*100vh*/
+.hundredVH{
+height: 91vh;
+}
 /*Colors*/
 .primary-color{
     background-color: #28a745;
