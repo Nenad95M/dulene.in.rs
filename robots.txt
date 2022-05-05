@@ -1,0 +1,4 @@
+User-agents:*
+Dissallow: /obrada.php
+Dissallow: /poruka.php
+
