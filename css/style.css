@@ -234,6 +234,7 @@ tr:nth-child(even) {
 #about-page .main-text{
  margin: auto;
  padding: 1rem 2rem;
+ font-size: 1.1rem;
  line-height: 1.7;
  text-align: start;
 }
