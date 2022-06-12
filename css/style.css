@@ -238,6 +238,9 @@ tr:nth-child(even) {
  line-height: 1.7;
  text-align: start;
 }
+#about-page a{
+    color: #08e0f0;
+   }
 /*Footer*/
 
 .footer-cards{
