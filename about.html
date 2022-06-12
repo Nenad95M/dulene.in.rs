@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +10,22 @@
     <link rel="stylesheet" href="/css/utilities.css">
     <link rel="stylesheet" href="/css/style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-29W6MF8WXY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-29W6MF8WXY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-29W6MF8WXY');
-</script>
+        gtag('config', 'G-29W6MF8WXY');
+    </script>
 </head>
-<body>
+
+<body class="primary-color">
     <header>
         <div id="navbar" class="navbar">
             <img src="img/logo.png" width="70" alt="dulene logo">
             <nav>
-            
+
                 <ul id="meny" class="desktop-meny">
                     <li> <a href="index.html">Почетна</a> </li>
                     <li> <a href="znamenitosti.html"> Знаменитости</a></li>
@@ -37,22 +39,27 @@
                 <i class="fa fa-bars fa-lg"></i>
             </div>
         </div>
-        
-        </header>
-            <main class=" primary-color-gradiant hundredVH">
-                <div class="center title text-white">
-                
-                <h2>Страница је тренутно у припреми.</h2>
-                <h2> Хвала на стрпљењу</h2>
-                </div>
-            </main>
-            <footer id="footer" class="primary-color">
- 
-                <div class="footer-text footer-color">
-                    <p>&copy; <span id="year"></span> DULENE.IN.RS</p>
-                </div>
-            </footer>
-           
-       <script src="js/dulenski.js"></script>
+
+    </header>
+    <main id="about-page" class=" center ">
+        <article class=" main-text">
+            <h2 class="title">О нашем сајту</h2>
+            <p>Прва идеја за прављење сајта који би био посвећен Дулену јавила се још 2010. када сам као 14 годишњак
+                направио сајт на Блогер платформи.</p>
+           <p>Сајт који имате прилику да видите сам у потпуности написао сам, користећи само HTML5, CSS3, Javascript, и нешто мало PHP-a.
+            <p>Аутор већине фотографија на сајту је Дејан Миленковић, док је за лого који је коришћен у футеру заслужан Марко Милојевић.</p>
+                <p>Сајт је замишљен као мала презентација где би посетиоци могли да се упознају са Дуленом, и да добију основне информације попут реда вожње и временске прогнозе</p>
+                <p>У сајт је укључена и временска прогноза која приказује податке Републичког хидрометеоролошког завода.</p>            
+        </article>
+    </main>
+    <footer id="footer" class="primary-color fixed-botom">
+
+        <div class="footer-text footer-color">
+            <p>&copy; <span id="year"></span> DULENE.IN.RS</p>
+        </div>
+    </footer>
+
+    <script src="js/dulenski.js"></script>
 </body>
+
 </html>

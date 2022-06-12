@@ -224,6 +224,19 @@ tr:nth-child(even) {
 
     }
 }
+
+/*ABOUT PAGE*/
+/* margine su zbog fixed navbara i futera */
+#about-page{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+#about-page .main-text{
+ margin: auto;
+ padding: 1rem 2rem;
+ line-height: 1.7;
+ text-align: start;
+}
 /*Footer*/
 
 .footer-cards{
