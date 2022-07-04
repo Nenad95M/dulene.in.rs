@@ -425,14 +425,13 @@ tr:nth-child(even) {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #28a745;
+    background-color: #fff;
 }
 #modalPhoto{
-    max-height:600px;
+    max-height:550px;
 }
 #text{
     z-index: 2;
-    background-color: #fff;
     color: #333;
 }
 #lightboxImg .fa-x {
@@ -470,7 +469,9 @@ tr:nth-child(even) {
         max-width: 100%;
         max-height: 100%;
     }
-
+    #modalPhoto{
+        max-height:250px;
+    }
     #lightboxImg .fa-arrow-circle-right {
         right: 5px;
     }
@@ -480,7 +481,7 @@ tr:nth-child(even) {
     }
 
     #lightboxImg .fa-x {
-        top: -15px;
+        top: 25%;
         right: 5px;
     }
 }
