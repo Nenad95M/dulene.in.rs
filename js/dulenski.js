@@ -37,7 +37,7 @@ window.onscroll = function () {
 /* Za godinu u futeru */
 let year = new Date().getFullYear();
 document.getElementById("year").innerHTML = year;
-
+//ucitavam module ako je odgovarajuca strana
 if (document.getElementById('index-gallery')){
   homepageLightbox();
 }
