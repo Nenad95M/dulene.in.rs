@@ -95,7 +95,7 @@ footer{
         <p>&copy;  <span id="year"></span>  DULENE.IN.RS</p>
     </div>
 </footer>
-    <script src="js/dulenski.js">
+<script type="module" src="./js/dulenski.js"></script>
 
     </script>
 </body>
