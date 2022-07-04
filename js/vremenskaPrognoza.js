@@ -1,5 +1,4 @@
-(()=>{
-
+export function weatherForcast(){
    function callApi() {
       fetch('https://api.openweathermap.org/data/2.5/onecall?lat=43.842986&lon=20.953148&lang=sr&appid=23121e705933ec1c73e50fe68de58b25&units=metric'
       ).then(response => response.json()).then(data => {
@@ -39,4 +38,4 @@
        <tr>`
     }
     callApi();
-   })();
+   }

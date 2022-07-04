@@ -1,4 +1,5 @@
 import {homepageLightbox} from "./lightbox.js";
+import { weatherForcast } from "./vremenskaPrognoza.js";
 
 /*Prikazuje i sakriva navigaciju na telefonu*/
 const phoneNav = document
@@ -39,4 +40,7 @@ document.getElementById("year").innerHTML = year;
 
 if (document.getElementById('index-gallery')){
   homepageLightbox();
+}
+if(document.getElementById('currentWeather')){
+  weatherForcast();
 }
