@@ -64,7 +64,6 @@ footer{
                     <li> <a href="znamenitosti"> Знаменитости</a></li>
                     <li> <a href="istorija">Историја</a> </li>
                     <li> <a href="vremenska-prognoza-dulene">Време</a> </li>
-                    <li> <a href="https://forum.dulene.in.rs/public/">Форум</a> </li>
                     <li> <a href="kontakt">Контакт</a></li>
                 </ul>
 	</nav>
@@ -95,7 +94,7 @@ footer{
         <p>&copy;  <span id="year"></span>  DULENE.IN.RS</p>
     </div>
 </footer>
-<script type="module" src="./js/dulenski.js"></script>
+    <script type="module" src="./js/dulenski.js"></script>
 
     </script>
 </body>
