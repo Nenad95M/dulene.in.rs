@@ -1,3 +1,5 @@
+import {homepageLightbox} from "./lightbox.js";
+
 /*Prikazuje i sakriva navigaciju na telefonu*/
 const phoneNav = document
   .getElementById("phone-nav")
@@ -34,3 +36,7 @@ window.onscroll = function () {
 /* Za godinu u futeru */
 let year = new Date().getFullYear();
 document.getElementById("year").innerHTML = year;
+
+if (document.getElementById('index-gallery')){
+  homepageLightbox();
+}

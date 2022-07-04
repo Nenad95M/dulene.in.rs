@@ -1,4 +1,4 @@
-(()=>{
+export function homepageLightbox(){
 //niz slika
 const imgArr = document.getElementById('index-gallery').querySelectorAll('img');
 const imgArrSrc = Array.from(imgArr);
@@ -64,7 +64,6 @@ prev.addEventListener('click',()=>{
     state.activeImg=num;
     checkStateChange();
 })
-
-})();
+}
 
 
