@@ -1,6 +1,6 @@
 import {homepageLightbox} from "./lightbox.js";
 import { weatherForcast } from "./vremenskaPrognoza.js";
-
+function navigationInteractivity(){
 /*Prikazuje i sakriva navigaciju na telefonu*/
 const phoneNav = document
   .getElementById("phone-nav")
@@ -33,14 +33,22 @@ window.onscroll = function () {
   }
   pastScroll = newScroll;
 };
+}
 
+function footer(){
 /* Za godinu u futeru */
 let year = new Date().getFullYear();
 document.getElementById("year").innerHTML = year;
-//ucitavam module ako je odgovarajuca strana
+}
+
+window.addEventListener('load', (event) => {
+  navigationInteractivity();
+  footer();
+  //ucitavam module ako je odgovarajuca strana
 if (document.getElementById('index-gallery')){
   homepageLightbox();
 }
 if(document.getElementById('currentWeather')){
   weatherForcast();
 }
+});
