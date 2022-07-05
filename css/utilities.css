@@ -45,7 +45,9 @@ height: 91vh;
 }
 
 /*font*/
-
+html, body{
+        scroll-behavior: smooth
+}
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #fff;
