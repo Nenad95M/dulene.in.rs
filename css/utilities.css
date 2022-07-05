@@ -152,3 +152,30 @@ section{
     width: 100%;
     bottom: 0;
 }
+
+.photo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  
+    text-align: center;
+}
+.photo-box .img-high{
+    width: 30%;
+}
+.photo-box .img-medium{
+    width: 50%;
+}
+@media screen and (max-width:700px){
+.photo-box >img{
+    max-width: 100%;
+}
+.photo-box .img-high{
+    width:80%;
+}
+.photo-box .img-medium{
+    width: 90%;
+}
+}
