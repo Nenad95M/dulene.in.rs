@@ -29,6 +29,7 @@ function checkStateChange() {
     }
     else{
         lightboxBg.classList.remove('active');
+        modalPhoto.src='';
     }
 }
 
