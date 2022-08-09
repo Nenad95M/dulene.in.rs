@@ -1,4 +1,5 @@
 User-agents:*
-Dissallow: /obrada.php
-Dissallow: /poruka.php
 
+Dissallow: ./obrada.php
+
+Sitemap: ./sitemap.xml
