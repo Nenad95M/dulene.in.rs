@@ -51,7 +51,7 @@ close.addEventListener('click', () => {
 
 next.addEventListener('click',()=>{
      let num=state.activeImg+1;
-     if(num>=state.maxImg){
+     if(num>=state.maxImg+1){
         num=state.activeImg=0;
     }
     state.activeImg=num;
