@@ -36,9 +36,9 @@
 
 }
 .navbar a:hover{
-    border-left: 1px #28a745 ridge;
-    border-right: 1px #28a745 ridge;
-
+    color: rgba(255, 255, 255, 0.88);
+    border-bottom: 1px #28a745 ridge;
+   transition: 500ms;
 }
 
 #phone-nav{
