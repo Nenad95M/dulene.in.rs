@@ -62,7 +62,7 @@ footer{
 
         <ul id="meny" class="desktop-meny">
                     <li> <a href="index.html">Почетна</a> </li>
-                    <li> <a href="znamenitosti.html"> Знаменитости</a></li>
+
                     <li> <a href="istorija.html">Историја</a> </li>
                     <li> <a href="vremenska-prognoza-dulene.html">Време</a> </li>
                     <li> <a href="kontakt.html">Контакт</a></li>
