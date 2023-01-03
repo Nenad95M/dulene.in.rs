@@ -92,7 +92,9 @@ font-size: 4rem;
 margin: 1rem;
 
 }
-
+.main{
+    min-height: 100vh;
+}
 #znamenitosti h2{
     text-align: center;
     padding: 10px 0;
@@ -126,6 +128,9 @@ margin: 15px 0;
 
 }
 
+#index-gallery .gallery-img:hover{
+    opacity: 0.9;
+}
 @media screen and (max-width:700px) {
     #index-gallery{
         grid-template-columns:auto auto;
